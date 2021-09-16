@@ -1,0 +1,1 @@
+export { getAllNamelyUsers } from "./userController";
