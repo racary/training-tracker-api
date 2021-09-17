@@ -12,6 +12,6 @@ router.use((req, res, next) => {
 
 router.get("/users/namely", getAllNamelyUsers);
 
-router.get("/trainings/", getAllTrainingEnrollmentsForOneUser);
+router.get("/trainings/:email", getAllTrainingEnrollmentsForOneUser);
 
 export default router;
