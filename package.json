@@ -1,23 +1,22 @@
 {
-    "name": "training-tracker-api",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "nodemon --exec babel-node -r dotenv/config src/server.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "@babel/core": "^7.14.3",
-      "@babel/node": "^7.14.2",
-      "@babel/preset-env": "^7.14.2",
-      "dotenv": "^9.0.2",
-      "express": "^4.17.1",
-      "mongodb": "^3.6.7",
-      "mongoose": "^5.12.10",
-      "nodemon": "^2.0.7"
-    }
+  "name": "training-tracker-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node -r dotenv/config src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.7",
+    "mongoose": "^5.12.10",
+    "nodemon": "^2.0.7"
   }
-  
+}
