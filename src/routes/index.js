@@ -1,5 +1,5 @@
 import express from "express";
-import { getAllNamelyUsers } from "../controllers";
+import { getAllNamelyUsers, getNamelyUserByName } from "../controllers";
 import { getAllTrainingEnrollmentsForOneUser } from "../controllers";
 
 const router = express.Router();
@@ -12,7 +12,7 @@ router.use((req, res, next) => {
 
 router.get("/users/namely", getAllNamelyUsers);
 
-router.get("/users/:name/namely", getAllNamelyUsers);
+router.get("/users/:name/namely", getNamelyUserByName);
 
 router.get("/trainings/:email", getAllTrainingEnrollmentsForOneUser);
 
